@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edson - Meu Site Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .bio {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .bio img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        .bio h2 {
+            margin-top: 0;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h3 {
+            margin-bottom: 10px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section ul li {
+            background: #eee;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .blog-post {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+        .blog-post h4 {
+            margin-top: 0;
+        }
+        .comment {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #ccc;
+        }
+        .comment p {
+            margin: 5px 0;
+        }
+        .comment .author {
+            font-style: italic;
+        }
+        .contact-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-links a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 18px;
+            color: #333;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Edson - Meu Site Pessoal</h1>
+    </header>
+    <div class="container">
+        <div class="bio">
+            <img src="https://via.placeholder.com/150" alt="Foto do Edson">
+            <h2>Edson</h2>
+            <p>Sou Edson, moro no Brasil e tenho um forte interesse em escrever histórias, seja livros ou fanfics, como um hobby que valorizo muito. Sou um jogador de xadrez de nível intermediário, admirando profundamente jogadores renomados como Magnus Carlsen e Garry Kasparov. Meus interesses abrangem o Cristianismo, estratégia/táticas, produtividade e desenvolvimento pessoal.</p>
+        </div>
+        
+        <div class="section">
+            <h3>Blog</h3>
+            <div class="blog-post">
+                <h4>Título do Post 1</h4>
+                <p>Texto do post 1...</p>
+            </div>
+            <div class="blog-post">
+                <h4>Título do Post 2</h4>
+                <p>Texto do post 2...</p>
+            </div>
+            <!-- Adicione mais posts conforme necessário -->
+        </div>
+        
+        <div class="section">
+            <h3>Lances Brilhantes no Xadrez</h3>
+            <p>Aqui você pode compartilhar exemplos de lances interessantes e estratégias no xadrez que você admira ou que tenha estudado.</p>
+        </div>
+
+        <div class="section">
+            <h3>Comentários dos Visitantes</h3>
+            <div class="comment">
+                <p>Texto do comentário...</p>
+                <p class="author">- João</p>
+            </div>
+            <div class="comment">
+                <p>Outro texto de comentário...</p>
+                <p class="author">- Maria</p>
+            </div>
+            <!-- Adicione mais comentários conforme necessário -->
+        </div>
+        
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/seu-instagram" target="_blank">Instagram</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Edson. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+<!-css->
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edson - Meu Site Pessoal</title>
+    <style>
+        /* Reset de estilos e definições básicas */
+        body, html {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Estilo do cabeçalho */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        /* Container principal */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* Biografia */
+        .bio {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .bio img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 4px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .bio h2 {
+            margin-top: 20px;
+            font-size: 2rem;
+        }
+
+        .bio p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        /* Seções */
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h3 {
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Estilo dos posts do blog */
+        .blog-post {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .blog-post h4 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        /* Estilo dos comentários */
+        .comment {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #ccc;
+        }
+
+        .comment p {
+            margin: 5px 0;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .comment .author {
+            font-style: italic;
+            font-size: 1rem;
+            color: #666;
+        }
+
+        /* Links de contato */
+        .contact-links {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .contact-links a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 1.2rem;
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-links a:hover {
+            color: #007bff; /* Azul brilhante, pode ajustar a cor conforme preferir */
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Edson - Meu Site Pessoal</h1>
+    </header>
+    <div class="container">
+        <div class="bio">
+            <img src="https://via.placeholder.com/150" alt="Foto do Edson">
+            <h2>Edson</h2>
+            <p>Sou Edson, moro no Brasil e tenho um forte interesse em escrever histórias, seja livros ou fanfics, como um hobby que valorizo muito. Sou um jogador de xadrez de nível intermediário, admirando profundamente jogadores renomados como Magnus Carlsen e Garry Kasparov. Meus interesses abrangem o Cristianismo, estratégia/táticas, produtividade e desenvolvimento pessoal.</p>
+        </div>
+        
+        <div class="section">
+            <h3>Blog</h3>
+            <div class="blog-post">
+                <h4>Título do Post 1</h4>
+                <p>Texto do post 1...</p>
+            </div>
+            <div class="blog-post">
+                <h4>Título do Post 2</h4>
+                <p>Texto do post 2...</p>
+            </div>
+            <!-- Adicione mais posts conforme necessário -->
+        </div>
+        
+        <div class="section">
+            <h3>Lances Brilhantes no Xadrez</h3>
+            <p>Aqui você pode compartilhar exemplos de lances interessantes e estratégias no xadrez que você admira ou que tenha estudado.</p>
+        </div>
+
+        <div class="section">
+            <h3>Comentários dos Visitantes</h3>
+            <div class="comment">
+                <p>Texto do comentário...</p>
+                <p class="author">- João</p>
+            </div>
+            <div class="comment">
+                <p>Outro texto de comentário...</p>
+                <p class="author">- Maria</p>
+            </div>
+            <!-- Adicione mais comentários conforme necessário -->
+        </div>
+        
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/seu-instagram" target="_blank">Instagram</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Edson. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
